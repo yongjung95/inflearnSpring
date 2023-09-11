@@ -4,7 +4,7 @@
 
 <br/>
 
-- 스프링 MVC 1편
-  - [서블릿](./servlet)  
+- 스프링 로드맵
   - [웹 어플리케이션 기본](./core)
   - [스프링 웹 MVC](./springmvc)
+    - [서블릿](./servlet)     
