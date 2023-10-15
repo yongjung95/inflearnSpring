@@ -12,3 +12,5 @@
   - 스프링 웹 MVC 2편 - 백엔드 웹 개발 활용 기술
     - [타임리프 - 기본 기능](./thymeleaf-basic)
     - [타임리프 - 스프링 통합과 폼](./form)
+    - [메시지, 국제화](./message)
+    - [검증1 - Validation , 검증2 - Validation](./validation)
