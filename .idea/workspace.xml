@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 수정" />
+    <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 정리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +34,13 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springmvcV2" />
+      <recent name="$PROJECT_DIR$/springmvc" />
+      <recent name="$PROJECT_DIR$/springmvc2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +53,7 @@
       <workItem from="1697469316118" duration="530000" />
       <workItem from="1698020479435" duration="719000" />
       <workItem from="1698242924457" duration="41000" />
+      <workItem from="1698847359216" duration="2789000" />
     </task>
     <task id="LOCAL-00001" summary=":white_check_mark: README 수정">
       <created>1698020581790</created>
@@ -61,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698242960908</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":white_check_mark: README 정리">
+      <created>1698847706412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698847706412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":white_check_mark: README 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: README 수정" />
+    <MESSAGE value=":white_check_mark: README 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: README 정리" />
   </component>
 </project>
