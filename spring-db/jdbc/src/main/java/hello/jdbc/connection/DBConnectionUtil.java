@@ -6,7 +6,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import static hello.jdbc.connection.ConnectionTest.*;
+import static hello.jdbc.connection.ConnectionConst.*;
 
 @Slf4j
 public class DBConnectionUtil {
