@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 정리" />
+    <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 정리">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +56,7 @@
       <workItem from="1698020479435" duration="719000" />
       <workItem from="1698242924457" duration="41000" />
       <workItem from="1698847359216" duration="2789000" />
+      <workItem from="1701064090431" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary=":white_check_mark: README 수정">
       <created>1698020581790</created>
@@ -76,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698847706412</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":white_check_mark: README 정리">
+      <created>1701064506341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701064506341</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
