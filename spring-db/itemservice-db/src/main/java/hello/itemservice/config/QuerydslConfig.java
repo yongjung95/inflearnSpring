@@ -18,7 +18,6 @@ import javax.persistence.EntityManager;
 public class QuerydslConfig {
 
     private final EntityManager em;
-    private final JPAQueryFactory query;
 
     @Bean
     public ItemService itemService() {
@@ -27,7 +26,7 @@ public class QuerydslConfig {
 
     @Bean
     public ItemRepository itemRepository() {
-        return new JpaItemRepositoryV3(em, query);
+        return new JpaItemRepositoryV3(em);
     }
 
 }

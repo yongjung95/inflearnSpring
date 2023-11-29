@@ -26,9 +26,9 @@ public class JpaItemRepositoryV3 implements ItemRepository {
     private final EntityManager em;
     private final JPAQueryFactory query;
 
-    public JpaItemRepositoryV3(EntityManager em, JPAQueryFactory query) {
+    public JpaItemRepositoryV3(EntityManager em) {
         this.em = em;
-        this.query = query;
+        this.query = new JPAQueryFactory(em);
     }
 
     @Override
