@@ -57,6 +57,7 @@
       <workItem from="1698242924457" duration="41000" />
       <workItem from="1698847359216" duration="2789000" />
       <workItem from="1701064090431" duration="459000" />
+      <workItem from="1701409573242" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary=":white_check_mark: README 수정">
       <created>1698020581790</created>
@@ -86,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701064506341</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":white_check_mark: README 정리">
+      <created>1701409752315</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701409752315</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
