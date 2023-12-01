@@ -49,6 +49,7 @@ public class HelloTraceV2 {
         }
     }
 
+    // <-- , 2  | |<--
     private static String addSpace(String prefix, int level) {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < level; i++) {
