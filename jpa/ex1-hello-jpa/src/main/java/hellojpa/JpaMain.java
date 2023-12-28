@@ -25,17 +25,21 @@ public class JpaMain {
 
             //회원 저장
             Member member = new Member();
-            member.setName("member1");
+            member.setUsername("member1");
             member.setTeam(team); //단방향 연관관계 설정, 참조 저장
 
             em.persist(member);
 
-            //조회
-            Member findMember = em.find(Member.class, member.getId());
-            //참조를 사용해서 연관관계 조회
-            Team findTeam = findMember.getTeam();
+            em.flush();
+            em.clear();
 
-            System.out.println("findTeam = " + findTeam.getName());
+            //조회
+            Team findTeam = em.find(Team.class, team.getId());
+            List<Member> members = findTeam.getMembers();//역방향 조회
+
+            for (Member m : members) {
+                System.out.println("m.getUsername() = " + m.getUsername());
+            }
 
             tx.commit();
         } catch (Exception e) {
