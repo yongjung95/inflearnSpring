@@ -26,8 +26,7 @@ public class JpaMain {
             //회원 저장
             Member member = new Member();
             member.setUsername("member1");
-            member.setTeam(team); //단방향 연관관계 설정, 참조 저장
-
+            member.setTeam(team);
             em.persist(member);
 
             em.flush();
@@ -35,7 +34,7 @@ public class JpaMain {
 
             //조회
             Team findTeam = em.find(Team.class, team.getId());
-            List<Member> members = findTeam.getMembers();//역방향 조회
+            List<Member> members = findTeam.getMembers(); //역방향 조회
 
             for (Member m : members) {
                 System.out.println("m.getUsername() = " + m.getUsername());
