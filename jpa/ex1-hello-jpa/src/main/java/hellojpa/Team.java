@@ -1,9 +1,6 @@
 package hellojpa;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,8 +13,9 @@ public class Team {
 
     private String name;
 
-    @OneToMany(mappedBy = "team")
-    List<Member> members = new ArrayList<Member>();
+    @OneToMany
+    @JoinColumn(name = "TEAM_ID")
+    private List<Member> members = new ArrayList<>();
 
     public Long getId() {
         return id;
