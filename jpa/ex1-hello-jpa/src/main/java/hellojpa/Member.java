@@ -12,6 +12,9 @@ public class Member {
     @Column(name = "USERNAME")
     private String username;
 
+    @OneToOne(mappedBy = "member")
+    private Locker locker;
+
     public Long getId() {
         return id;
     }
