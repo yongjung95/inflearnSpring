@@ -12,8 +12,12 @@ public class Member extends BaseEntity {
     @Column(name = "USERNAME")
     private String username;
 
-    @OneToOne(mappedBy = "member")
-    private Locker locker;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "TEAM_ID")
+    private Team team;
+
+//    @OneToOne(mappedBy = "member")
+//    private Locker locker;
 
     public Long getId() {
         return id;
@@ -31,4 +35,11 @@ public class Member extends BaseEntity {
         this.username = username;
     }
 
+    public Team getTeam() {
+        return team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
+    }
 }
