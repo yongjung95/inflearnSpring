@@ -18,15 +18,17 @@ public class JpaMain {
 
         try {
 
-//            Member member = new Member();
-//            member.setUsername("hello");
-//            member.setAge(10);
-//
-//            em.persist(member);
+            Member member = new Member();
+            member.setUsername("hello");
+            member.setAge(10);
 
-            Member findMember = em.createQuery("select m from Member m where m.username = :username", Member.class)
-                    .setParameter("username", "hello")
-                    .getSingleResult();
+            em.persist(member);
+
+            em.flush();
+            em.clear();
+
+            em.createQuery("select distinct m.username, m.age from Member m")
+                    .getResultList();
 
 
 //            Query query = em.createQuery("select m.username, m.age from Member m");
