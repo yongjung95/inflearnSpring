@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 정리">
-      <change afterPath="$PROJECT_DIR$/jpa/jpql/src/main/java/hellojpa/jpql/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/ex1-hello-jpa/10. 객체지향 쿼리 언어.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/ex1-hello-jpa/10. 객체지향 쿼리 언어.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/hellojpa/jpql/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/main/java/hellojpa/jpql/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/hellojpa/jpql/JpaMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/hellojpa/jpql/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/main/java/hellojpa/jpql/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/hellojpa/jpql/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/main/java/hellojpa/jpql/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/hellojpa/jpql/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/main/java/hellojpa/jpql/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/java/hellojpa/jpql/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/main/java/hellojpa/jpql/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/src/test/java/hellojpa/jpql/JpqlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/jpql/src/test/java/hellojpa/jpql/JpqlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpql/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpql/.idea/misc.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +63,7 @@
       <workItem from="1701409573242" duration="907000" />
       <workItem from="1702903910346" duration="264000" />
       <workItem from="1706537169357" duration="10000" />
+      <workItem from="1707037300534" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary=":white_check_mark: README 수정">
       <created>1698020581790</created>
