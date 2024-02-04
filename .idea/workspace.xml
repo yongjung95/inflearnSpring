@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 정리">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/.idea/misc.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 정리" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +59,7 @@
       <workItem from="1701409573242" duration="907000" />
       <workItem from="1702903910346" duration="264000" />
       <workItem from="1706537169357" duration="10000" />
-      <workItem from="1707037300534" duration="360000" />
+      <workItem from="1707037300534" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary=":white_check_mark: README 수정">
       <created>1698020581790</created>
@@ -107,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702904168674</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=":white_check_mark: README 정리">
+      <created>1707037705264</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707037705264</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
