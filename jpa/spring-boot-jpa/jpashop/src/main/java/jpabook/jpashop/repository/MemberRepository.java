@@ -11,7 +11,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class MemberRepository {
 
-    private final EntityManager em; // 스프링 부트에서만 지원하는 방식이 아니면 안됨. 스프링 부트가 아니라면 를 사용해야 한다.
+    private final EntityManager em; // 스프링 부트에서만 지원하는 방식이 아니면 안됨. 스프링 부트가 아니라면 @PersistenceContext 를 사용해야 한다.
 
     public void save(Member member) {
         em.persist(member);
