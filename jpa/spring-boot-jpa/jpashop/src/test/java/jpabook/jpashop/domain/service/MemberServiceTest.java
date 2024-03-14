@@ -2,6 +2,7 @@ package jpabook.jpashop.domain.service;
 
 import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.repository.MemberRepository;
+import jpabook.jpashop.repository.MemberRepositoryOld;
 import jpabook.jpashop.service.MemberService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -33,7 +34,7 @@ public class MemberServiceTest {
         Long saveId = memberService.join(member);
 
         // then
-        assertEquals(member, memberRepository.findOne(saveId));
+        assertEquals(member, memberRepository.findById(saveId).orElse(null));
     }
 
     @Test(expected = IllegalStateException.class)

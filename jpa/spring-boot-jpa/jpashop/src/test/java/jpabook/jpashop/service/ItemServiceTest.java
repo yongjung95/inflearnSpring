@@ -1,10 +1,7 @@
 package jpabook.jpashop.service;
 
 import jpabook.jpashop.domain.item.Album;
-import jpabook.jpashop.domain.item.Item;
-import jpabook.jpashop.exception.NotEnoughStockException;
 import jpabook.jpashop.repository.ItemRepository;
-import jpabook.jpashop.repository.MemberRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
