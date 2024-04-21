@@ -5,7 +5,9 @@ import com.querydsl.core.QueryResults;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.types.Expression;
 import com.querydsl.core.types.ExpressionUtils;
+import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.Projections;
+import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.core.types.dsl.CaseBuilder;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.jpa.JPAExpressions;
@@ -265,7 +267,7 @@ public class QuerydslBasicTest {
      * 예) 회원과 팀을 조인하면서, 팀 이름이 teamA인 팀만 조인, 회원은 모두 조회
      * JPQL: SELECT m, t FROM Member m LEFT JOIN m.team t on t.name = 'teamA'
      * SQL: SELECT m.*, t.* FROM Member m LEFT JOIN Team t ON m.TEAM_ID=t.id and
-     t.name='teamA'
+     * t.name='teamA'
      */
     @Test
     public void join_on_filtering() throws Exception {
@@ -595,7 +597,7 @@ public class QuerydslBasicTest {
 
     /**
      * 생성자 + @QueryProjection
-     *
+     * <p>
      * 이 방법은 컴파일러로 타입을 체크할 수 있으므로 가장 안전한 방법이다.
      * 다만 DTO에 QueryDSL 어노테이션을 유지 해야 하는 점과 DTO까지 Q 파일을 생성해야 하는 단점이 있다.
      */
@@ -611,6 +613,9 @@ public class QuerydslBasicTest {
         }
     }
 
+    /**
+     * 동적 쿼리 - BooleanBuilder 사용
+     */
     @Test
     public void dynamicQuery_BooleanBuilder() {
         String usernameParam = "member1";
@@ -636,5 +641,38 @@ public class QuerydslBasicTest {
                 .selectFrom(member)
                 .where(builder)
                 .fetch();
+    }
+
+    /**
+     * 동적 쿼리 - Where 다중 파라미터 사용
+     */
+    @Test
+    public void dynamicQuery_WhereParam() {
+        String usernameParam = "member1";
+        Integer ageParam = 10;
+
+        List<Member> result = searchMember2(usernameParam, ageParam);
+        assertThat(result.size()).isEqualTo(1);
+    }
+
+    private List<Member> searchMember2(String usernameCond, Integer ageCond) {
+        return queryFactory
+                .selectFrom(member)
+                .where(usernameEq(usernameCond), ageEq(ageCond))
+//                .where(allEq(usernameCond,ageCond))
+                .fetch();
+    }
+
+    private BooleanExpression ageEq(Integer ageCond) {
+        return ageCond != null ? member.age.eq(ageCond) : null;
+
+    }
+
+    private BooleanExpression usernameEq(String usernameCond) {
+        return usernameCond != null ? member.username.eq(usernameCond) : null;
+    }
+
+    private BooleanExpression allEq(String usernameCond, Integer ageCond) {
+        return usernameEq(usernameCond).and(ageEq(ageCond));
     }
 }
