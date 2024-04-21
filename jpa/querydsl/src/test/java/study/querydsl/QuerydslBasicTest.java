@@ -11,6 +11,7 @@ import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.core.types.dsl.CaseBuilder;
 import com.querydsl.core.types.dsl.Expressions;
 import com.querydsl.jpa.JPAExpressions;
+import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -677,6 +678,9 @@ public class QuerydslBasicTest {
         return usernameEq(usernameCond).and(ageEq(ageCond));
     }
 
+    /**
+     * 쿼리 한번으로 대량 데이터 수정
+     */
     @Test
     @Commit
     public void bulkUpdate() {
@@ -687,6 +691,9 @@ public class QuerydslBasicTest {
                 .execute();
     }
 
+    /**
+     * 기존 숫자에 1 더하기
+     */
     @Test
     public void bulkAdd() {
         long count = queryFactory
@@ -695,6 +702,9 @@ public class QuerydslBasicTest {
                 .execute();
     }
 
+    /**
+     * 기존 숫자에 2 곱하기
+     */
     @Test
     public void bulkMultiply(){
         long count = queryFactory
@@ -703,11 +713,46 @@ public class QuerydslBasicTest {
                 .execute();
     }
 
+    /**
+     * 쿼리 한번으로 대량 데이터 삭제
+     */
     @Test
     public void bulkDelete() {
         long count = queryFactory
                 .delete(member)
                 .where(member.age.gt(18))
                 .execute();
+    }
+
+    /**
+     * SQL function 호출하기
+     *
+     * SQL function은 JPA와 같이 Dialect에 등록된 내용만 호출할 수 있다
+     */
+    @Test
+    public void sqlFunction() {
+        String result = queryFactory
+                .select(Expressions.stringTemplate("function('replace', {0}, {1}, {2})",
+                        member.username, "member", "M"))
+                .from(member)
+                .fetchFirst();
+    }
+
+    /**
+     * 소문자로 변경해서 비교해라
+     *
+     * lower 같은 ansi 표준 함수들은 querydsl이 상당부분 내장하고 있다. 따라서 다음과 같이 처리해도 결과는 같다
+     */
+    @Test
+    public void sqlFunction2() {
+        List<String> result = queryFactory
+                .select(member.username)
+                .from(member)
+                .where(member.username.eq(
+                        Expressions.stringTemplate("function('lower', {0})",
+                                member.username))
+                )
+//                .where(member.username.eq(member.username.lower()))
+                .fetch();
     }
 }
