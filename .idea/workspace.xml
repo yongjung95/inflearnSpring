@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment=":white_check_mark: README 정리">
-      <change afterPath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/src/main/java/jpabook/jpashop/api/MemberApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화/01. API 개발 기본.md" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 컨텍스트 스위칭">
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/start/HelloThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/start/HelloThreadMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/ex1-hello-jpa/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/02. 도메인 분석 설계.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발/02. 도메인 분석 설계.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/07. 웹 계층 개발.md" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발/07. 웹 계층 개발.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/src/main/java/jpabook/jpashop/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/src/main/java/jpabook/jpashop/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpa/spring-boot-jpa/jpashop/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jpql/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,138 +15,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="5" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2WMhaucNbTr2FMaD5TCXLfRZqv8" />
-  <component name="ProjectViewState">
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/junge/IdeaProjects/inflearnSpring&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jpa" />
-      <recent name="$PROJECT_DIR$/springmvcV2" />
-      <recent name="$PROJECT_DIR$/springmvc" />
-      <recent name="$PROJECT_DIR$/springmvc2" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="e3766ee8-1539-4173-952e-0dfe334c262d" name="Changes" comment="" />
-      <created>1696548422549</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1696548422549</updated>
-      <workItem from="1696548423882" duration="1057000" />
-      <workItem from="1697469316118" duration="530000" />
-      <workItem from="1698020479435" duration="719000" />
-      <workItem from="1698242924457" duration="41000" />
-      <workItem from="1698847359216" duration="2789000" />
-      <workItem from="1701064090431" duration="459000" />
-      <workItem from="1701409573242" duration="907000" />
-      <workItem from="1702903910346" duration="264000" />
-      <workItem from="1706537169357" duration="10000" />
-      <workItem from="1707037300534" duration="409000" />
-      <workItem from="1707038670667" duration="162000" />
-      <workItem from="1708495419075" duration="22000" />
-    </task>
-    <task id="LOCAL-00001" summary=":white_check_mark: README 수정">
-      <created>1698020581790</created>
+    <task id="LOCAL-00001" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 컨텍스트 스위칭">
+      <option name="closed" value="true" />
+      <created>1728468425564</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1698020581790</updated>
+      <updated>1728468425564</updated>
     </task>
-    <task id="LOCAL-00002" summary=":white_check_mark: README 수정">
-      <created>1698242960908</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1698242960908</updated>
-    </task>
-    <task id="LOCAL-00003" summary=":white_check_mark: README 정리">
-      <created>1698847706412</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1698847706412</updated>
-    </task>
-    <task id="LOCAL-00004" summary=":white_check_mark: README 정리">
-      <created>1701064506341</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1701064506341</updated>
-    </task>
-    <task id="LOCAL-00005" summary=":white_check_mark: README 정리">
-      <created>1701409752315</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1701409752315</updated>
-    </task>
-    <task id="LOCAL-00006" summary=":white_check_mark: README 정리">
-      <created>1702904168674</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1702904168674</updated>
-    </task>
-    <task id="LOCAL-00007" summary=":white_check_mark: README 정리">
-      <created>1707037705264</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1707037705264</updated>
-    </task>
-    <task id="LOCAL-00008" summary=":white_check_mark: 패키지 정리">
-      <created>1707038824895</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1707038824895</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":white_check_mark: README 수정" />
-    <MESSAGE value=":white_check_mark: README 정리" />
-    <MESSAGE value=":white_check_mark: 패키지 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 패키지 정리" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 스레드와 스케줄링" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 컨텍스트 스위칭" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 컨텍스트 스위칭" />
   </component>
 </project>
