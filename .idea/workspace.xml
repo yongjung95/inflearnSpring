@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 스레드 시작">
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/start/DaemonThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-java/02. 스레드 생성과 실행.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/02. 스레드 생성과 실행.md" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 데몬 스레드">
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/start/HelloRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/start/HelloRunnableMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +44,22 @@
       <option name="project" value="LOCAL" />
       <updated>1728470126691</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 데몬 스레드">
+      <option name="closed" value="true" />
+      <created>1728470692307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728470692307</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 스레드와 스케줄링" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 컨텍스트 스위칭" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 스레드 시작" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 스레드 시작" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 데몬 스레드" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 데몬 스레드" />
   </component>
 </project>
