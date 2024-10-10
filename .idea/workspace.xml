@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 문제와 풀이">
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/ThreadInfoMain.java" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드 기본 정보">
+      <change afterPath="$PROJECT_DIR$/advanced-java/images/스레드의 생명 주기.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728473548854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드 기본 정보">
+      <option name="closed" value="true" />
+      <created>1728542270121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728542270121</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -95,6 +103,7 @@
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 여러 스레드 만들기" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - Runnable을 만드는 다양한 방법" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 문제와 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 문제와 풀이" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드 기본 정보" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드 기본 정보" />
   </component>
 </project>
