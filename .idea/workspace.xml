@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +21,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yongjung95"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yongjung95/inflearnSpring.git",
+    "accountId": "4cb58bad-bcab-4389-af4e-a23409c410d9"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2nPsKBicvfNBkeWmI8SHyY492GZ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "main"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -25,6 +52,7 @@
       <recent name="$PROJECT_DIR$/advanced-java/images" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 컨텍스트 스위칭">
       <option name="closed" value="true" />
@@ -106,8 +134,34 @@
       <option name="project" value="LOCAL" />
       <updated>1728885957788</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의" />
+      <created>1728885978620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728885978620</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의">
+      <option name="closed" value="true" />
+      <created>1728886054272</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728886054272</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 스레드와 스케줄링" />
