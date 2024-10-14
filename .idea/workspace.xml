@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의">
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/join/JoinMainV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/03. 스레드 제어와 생명 주기1.md" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 문제와 풀이">
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/interrupt/ThreadStopMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/interrupt/ThreadStopMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/interrupt/ThreadStopMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/interrupt/ThreadStopMainV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728886054272</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - Join 사용">
+      <option name="closed" value="true" />
+      <created>1728888036409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728888036409</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 문제와 풀이">
+      <option name="closed" value="true" />
+      <created>1728888353823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728888353823</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +189,8 @@
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드 기본 정보" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드의 생명 주기" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - Join 사용" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 문제와 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 문제와 풀이" />
   </component>
 </project>
