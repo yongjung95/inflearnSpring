@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - yield">
-      <change afterPath="$PROJECT_DIR$/advanced-java/05. 메모리 가시성.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/images/실제 메모리의 접근 방식.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/volatile1/VolatileCountMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/control/volatile1/VolatileFlagMain.java" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - volatile, 메모리 가시성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-java/05. 메모리 가시성.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/05. 메모리 가시성.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728902363155</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - volatile, 메모리 가시성">
+      <option name="closed" value="true" />
+      <created>1728960742741</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728960742741</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +223,7 @@
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 인터럽트" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 프린터 예제" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - yield" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - yield" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - volatile, 메모리 가시성" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - volatile, 메모리 가시성" />
   </component>
 </project>
