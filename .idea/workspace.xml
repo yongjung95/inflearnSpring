@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 출금 예제">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 임계 영역">
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729070491777</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 임계 영역">
+      <option name="closed" value="true" />
+      <created>1729071879884</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729071879884</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +250,7 @@
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - volatile, 메모리 가시성" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - 자바 메모리 모델(Java Memory Model)" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 출금 예제" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 출금 예제" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 임계 영역" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 임계 영역" />
   </component>
 </project>
