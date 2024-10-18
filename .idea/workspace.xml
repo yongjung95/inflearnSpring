@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 정리">
-      <change afterPath="$PROJECT_DIR$/advanced-java/07. 고급 동기화 - concurrent.Lock.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/lock/LockSupportMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/lock/LockSupportMainV2.java" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock">
+      <change afterPath="$PROJECT_DIR$/advanced-java/08. 생산자 소비자 문제1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/ConsumerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/ProducerTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankAccountV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/sync/BankMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729074756996</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock">
+      <option name="closed" value="true" />
+      <created>1729274881444</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729274881444</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +293,7 @@
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - synchronized 메서드" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - synchronized 동기화 정리" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 정리" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock" />
   </component>
 </project>
