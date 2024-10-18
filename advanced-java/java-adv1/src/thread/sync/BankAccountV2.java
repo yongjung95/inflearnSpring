@@ -3,6 +3,9 @@ package thread.sync;
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
 
+/**
+ * synchronized 메서드
+ */
 public class BankAccountV2 implements BankAccount {
 
     private int balance;
