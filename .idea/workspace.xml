@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock">
-      <change afterPath="$PROJECT_DIR$/advanced-java/08. 생산자 소비자 문제1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/ConsumerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/ProducerTask.java" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 8. 생산자 소비자 문제1">
+      <change afterPath="$PROJECT_DIR$/advanced-java/09. 생산자 소비자 문제2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/images/Lock(ReentrantLock) 대기.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/images/synchronized 대기.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV6_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV6_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV6_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedQueueV6_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/bounded/BoundedMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,32 +25,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yongjung95"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yongjung95&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yongjung95/inflearnSpring.git",
-    "accountId": "4cb58bad-bcab-4389-af4e-a23409c410d9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yongjung95/inflearnSpring.git&quot;,
+    &quot;accountId&quot;: &quot;4cb58bad-bcab-4389-af4e-a23409c410d9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2nPsKBicvfNBkeWmI8SHyY492GZ" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/advanced-java/images" />
@@ -255,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729274881444</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 8. 생산자 소비자 문제1">
+      <option name="closed" value="true" />
+      <created>1729291252832</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729291252832</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +304,7 @@
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - synchronized 동기화 정리" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 정리" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 8. 생산자 소비자 문제1" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 8. 생산자 소비자 문제1" />
   </component>
 </project>
