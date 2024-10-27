@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 :9. 생산자 소비자 문제2">
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/CasMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/CasMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/BasicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/CasMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/IncrementInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/IncrementPerformanceMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/IncrementThreadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/MyAtomicInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/SynchronizedInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/increment/VolatileInteger.java" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 10. CAS - 동기화와 원자적 연산 진행 중">
+      <change afterPath="$PROJECT_DIR$/advanced-java/10. CAS - 동기화와 원자적 연산.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/spinlock/SpinLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/spinlock/SpinLockBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advanced-java/java-adv1/src/thread/cas/spinlock/SpinLockMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced-java/10. CAS - 동기화와 원자적 연산.md" beforeDir="false" afterPath="$PROJECT_DIR$/advanced-java/10. CAS - 동기화와 원자적 연산.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +48,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/advanced-java" />
       <recent name="$PROJECT_DIR$/advanced-java/images" />
     </key>
   </component>
@@ -273,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729500379574</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 10. CAS - 동기화와 원자적 연산 진행 중">
+      <option name="closed" value="true" />
+      <created>1729632489887</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1729632489887</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +292,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 01. 프로세스와 스레드 소개 - 컨텍스트 스위칭" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 스레드 시작" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 데몬 스레드" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 스레드 생성 Runnable" />
@@ -313,6 +316,7 @@
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 07.고급 동기화 - concurrent.Lock" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 8. 생산자 소비자 문제1" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 :9. 생산자 소비자 문제2" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 :9. 생산자 소비자 문제2" />
+    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 10. CAS - 동기화와 원자적 연산 진행 중" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 10. CAS - 동기화와 원자적 연산 진행 중" />
   </component>
 </project>
