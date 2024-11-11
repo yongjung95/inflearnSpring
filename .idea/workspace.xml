@@ -5,6 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 11. 동시성 컬렉션">
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/CallException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/CloseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/ResourceCloseMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/ResourceCloseMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/ResourceCloseMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/ResourceCloseMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/ResourceV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/autocloseable/ResourceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v1/ClientV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v1/InetAddressMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v1/ServerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v2/ClientV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v2/ServerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v3/ClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v3/ServerV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/network/tcp/v3/SessionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/util/MyLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
