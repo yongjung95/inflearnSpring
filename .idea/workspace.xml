@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 11. HTTP 서버 만들기">
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: Readme 수정">
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/BasicV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/BasicV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/ConstructV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/ConstructV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/FieldUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/FieldV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/FieldV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/FieldV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/FieldV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/MethodV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/MethodV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/MethodV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/data/BasicData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/data/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/data/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/reflection/data/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/servlet/reflection/ReflectionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v6/SearchControllerV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v6/ServerMainV6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v6/SiteControllerV6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-adv2/src/was/httpserver/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/HttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731415465630</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary=":white_check_mark: Readme 수정">
+      <option name="closed" value="true" />
+      <created>1731509938584</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731509938584</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +364,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드 기본 정보" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드의 생명 주기" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - Join 사용" />
@@ -361,6 +388,7 @@
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 8. 네트워크 - 프로그램2" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 9. 채팅 프로그램" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 11. HTTP 서버 만들기" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 11. HTTP 서버 만들기" />
+    <MESSAGE value=":white_check_mark: Readme 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: Readme 수정" />
   </component>
 </project>
