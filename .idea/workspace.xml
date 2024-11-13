@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 9. 채팅 프로그램">
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/HttpRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/HttpResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/HttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/PageNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/ServletManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/servlet/DiscardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/servlet/InternalErrorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/httpserver/servlet/NotFoundServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v1/HttpServerV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v1/ServerMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v2/HttpRequestHandlerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v2/HttpServerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v2/ServerMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v3/HttpRequestHandlerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v3/HttpServerV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v3/PercentEncodingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v3/ServerMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v4/HttpRequestHandlerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v4/HttpServerV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v4/ServerMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v5/ServerMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v5/servlet/HomeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v5/servlet/SearchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v5/servlet/Site1Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv2/src/was/v5/servlet/Site2Servlet.java" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 11. HTTP 서버 만들기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731397305942</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 11. HTTP 서버 만들기">
+      <option name="closed" value="true" />
+      <created>1731415465630</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731415465630</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 02. 스레드 생성과 실행 - 문제와 풀이" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드 기본 정보" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 스레드의 생명 주기" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 체크 예외 재정의" />
@@ -379,6 +360,7 @@
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 7. 네트워크 - 프로그램1" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 8. 네트워크 - 프로그램2" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 9. 채팅 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 9. 채팅 프로그램" />
+    <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 11. HTTP 서버 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 김영한의 실전 자바 - 고급 2편, I/O, 네트워크, 리플렉션 : 11. HTTP 서버 만들기" />
   </component>
 </project>
