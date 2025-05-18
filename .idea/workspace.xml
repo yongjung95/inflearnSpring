@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 4. 람다 활용">
-      <change afterPath="$PROJECT_DIR$/java-adv3/src/lambda/lambda6/CaptureMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-adv3/src/lambda/lambda6/OuterMain.java" afterDir="false" />
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 5. 람다 vs 익명 클래스">
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/MethodRefEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/MethodRefEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/MethodRefEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/MethodRefEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/MethodRefEx5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/MethodRefEx6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/start/MethodRefStartV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/start/MethodRefStartV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/methodref/start/MethodRefStartV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-adv3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-adv3/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -29,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/yongjung95/inflearnSpring.git&quot;,
-    &quot;accountId&quot;: &quot;e431beb1-eef3-4e61-8c19-9acbabbbb00c&quot;
+    &quot;accountId&quot;: &quot;4cb58bad-bcab-4389-af4e-a23409c410d9&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -58,14 +66,6 @@
       <recent name="$PROJECT_DIR$/advanced-java/images" />
       <recent name="$PROJECT_DIR$/advanced-java" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -405,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747567487263</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 5. 람다 vs 익명 클래스">
+      <option name="closed" value="true" />
+      <created>1747568406812</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1747568406812</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - yield" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - volatile, 메모리 가시성" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - 자바 메모리 모델(Java Memory Model)" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 6. 동기화 synchronized - 출금 예제" />
@@ -448,6 +455,7 @@
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 1. 람다가 필요한 이유" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 2. 람다" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 4. 람다 활용" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 4. 람다 활용" />
+    <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 5. 람다 vs 익명 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 5. 람다 vs 익명 클래스" />
   </component>
 </project>
