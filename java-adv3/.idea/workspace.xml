@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3365f0a9-18b1-461e-a0b5-b887a02d5dbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/GenericFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/IntegerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/GenericMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/StringToIntegerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex1_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex2_Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Student.java" afterDir="false" />
+    <list default="true" id="3365f0a9-18b1-461e-a0b5-b887a02d5dbb" name="Changes" comment="gitignore 추가">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda6/CaptureMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda6/OuterMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,38 +44,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Ex0Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex1_Number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ex2_Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterMainV5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapMainV4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MapMainV5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyStreamV1Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyStreamV2Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyStreamV3Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kthd/junge/IdeaProjects/inflearnSpring/java-adv3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CaptureMain.executor": "Run",
+    "Application.Ex0Main.executor": "Run",
+    "Application.Ex1_Number.executor": "Run",
+    "Application.Ex2_Student.executor": "Run",
+    "Application.FilterMainV1.executor": "Run",
+    "Application.FilterMainV2.executor": "Run",
+    "Application.FilterMainV5.executor": "Run",
+    "Application.MapMainV1.executor": "Run",
+    "Application.MapMainV2.executor": "Run",
+    "Application.MapMainV4.executor": "Run",
+    "Application.MapMainV5.executor": "Run",
+    "Application.MyStreamV1Main.executor": "Run",
+    "Application.MyStreamV2Main.executor": "Run",
+    "Application.MyStreamV3Main.executor": "Run",
+    "Application.OuterMain.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kthd/junge/IdeaProjects/inflearnSpring/java-adv3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="lambda.lambda5.mystream" />
@@ -102,13 +86,13 @@
       <recent name="lambda.lambda5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyStreamLoopMain">
-    <configuration name="Ex2_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex2_Student" />
+  <component name="RunManager" selected="Application.CaptureMain">
+    <configuration name="CaptureMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda6.CaptureMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="PATTERN" value="lambda.lambda6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +102,6 @@
     </configuration>
     <configuration name="MyStreamLoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamLoopMain" />
-      <module name="java-adv3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStreamV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamV1Main" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
@@ -168,6 +139,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OuterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda6.OuterMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <module name="java-adv3" />
       <option name="filePath" />
@@ -175,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CaptureMain" />
+        <item itemvalue="Application.OuterMain" />
         <item itemvalue="Application.MyStreamLoopMain" />
         <item itemvalue="Application.MyStreamV3Main" />
         <item itemvalue="Application.MyStreamV2Main" />
-        <item itemvalue="Application.MyStreamV1Main" />
-        <item itemvalue="Application.Ex2_Student" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +203,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="gitignore 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore 추가" />
   </component>
 </project>

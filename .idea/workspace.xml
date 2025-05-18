@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 2. 람다">
+    <list default="true" id="b46b3e79-1383-4db8-bc89-399d9bac650c" name="Changes" comment=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 4. 람다 활용">
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/lambda/lambda6/CaptureMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-adv3/src/lambda/lambda6/OuterMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-adv3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-adv3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,8 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -21,12 +26,12 @@
     &quot;assignee&quot;: &quot;yongjung95&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yongjung95/inflearnSpring.git",
-    "accountId": "e431beb1-eef3-4e61-8c19-9acbabbbb00c"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yongjung95/inflearnSpring.git&quot;,
+    &quot;accountId&quot;: &quot;e431beb1-eef3-4e61-8c19-9acbabbbb00c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -34,20 +39,20 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/advanced-java/images" />
@@ -392,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745419524946</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 4. 람다 활용">
+      <option name="closed" value="true" />
+      <created>1747567487263</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1747567487263</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - 프린터 예제" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 03. 스레드 제어와 생명 주기1 - yield" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - volatile, 메모리 가시성" />
     <MESSAGE value=":white_check_mark: 고급 1편, 멀티스레드와 동시성 : 05. 메모리 가시성 - 자바 메모리 모델(Java Memory Model)" />
@@ -435,6 +447,7 @@
     <MESSAGE value=":white_check_mark: Readme 수정" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 1. 람다가 필요한 이유" />
     <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 2. 람다" />
-    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 2. 람다" />
+    <MESSAGE value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 4. 람다 활용" />
+    <option name="LAST_COMMIT_MESSAGE" value=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 3. 함수형 인터페이스, 4. 람다 활용" />
   </component>
 </project>
