@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3365f0a9-18b1-461e-a0b5-b887a02d5dbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/GenericFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/IntegerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/GenericMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/StringToIntegerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex1_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex2_Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yongjung95&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yongjung95/inflearnSpring.git&quot;,
+    &quot;accountId&quot;: &quot;e431beb1-eef3-4e61-8c19-9acbabbbb00c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2x7PjHmuU9riH7BDeQGep2JfEaS" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Ex0Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex1_Number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ex2_Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterMainV5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapMainV4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapMainV5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyStreamV1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyStreamV2Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyStreamV3Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kthd/junge/IdeaProjects/inflearnSpring/java-adv3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda.lambda5.mystream" />
+      <recent name="lambda.lambda5.map" />
+      <recent name="lambda.lambda5.filter" />
+      <recent name="lambda.lambda5" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyStreamLoopMain">
+    <configuration name="Ex2_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex2_Student" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStreamLoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamLoopMain" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStreamV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamV1Main" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStreamV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamV2Main" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStreamV3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamV3Main" />
+      <module name="java-adv3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java-adv3" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyStreamLoopMain" />
+        <item itemvalue="Application.MyStreamV3Main" />
+        <item itemvalue="Application.MyStreamV2Main" />
+        <item itemvalue="Application.MyStreamV1Main" />
+        <item itemvalue="Application.Ex2_Student" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3365f0a9-18b1-461e-a0b5-b887a02d5dbb" name="Changes" comment="" />
+      <created>1747286272317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747286272317</updated>
+      <workItem from="1747286273388" duration="616000" />
+      <workItem from="1747286963301" duration="13313000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
