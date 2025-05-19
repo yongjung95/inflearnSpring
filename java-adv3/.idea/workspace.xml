@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3365f0a9-18b1-461e-a0b5-b887a02d5dbb" name="Changes" comment="gitignore 추가">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/DuplicateExecutionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/ImmutableMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/LazyEvalMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/basic/LazyEvalMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stream/start/StreamStartMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/CreateStreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/IntermediateOperationsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/MapVsFlatMapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/OptionalSimpleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/PrimitiveStreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stream/operation/TerminalOperationsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CaptureMain.executor": "Run",
+    "Application.CreateStreamMain.executor": "Run",
     "Application.DuplicateExecutionMain.executor": "Run",
     "Application.Ex0Main.executor": "Run",
     "Application.Ex1_Number.executor": "Run",
@@ -58,12 +60,15 @@
     "Application.FilterMainV2.executor": "Run",
     "Application.FilterMainV5.executor": "Run",
     "Application.ImmutableMain.executor": "Run",
+    "Application.IntermediateOperationsMain.executor": "Run",
     "Application.LazyEvalMain1.executor": "Run",
     "Application.LazyEvalMain2.executor": "Run",
+    "Application.LazyEvalMain3.executor": "Run",
     "Application.MapMainV1.executor": "Run",
     "Application.MapMainV2.executor": "Run",
     "Application.MapMainV4.executor": "Run",
     "Application.MapMainV5.executor": "Run",
+    "Application.MapVsFlatMapMain.executor": "Run",
     "Application.MethodRefEx1.executor": "Run",
     "Application.MethodRefEx2.executor": "Run",
     "Application.MethodRefEx3.executor": "Run",
@@ -76,8 +81,11 @@
     "Application.MyStreamV1Main.executor": "Run",
     "Application.MyStreamV2Main.executor": "Run",
     "Application.MyStreamV3Main.executor": "Run",
+    "Application.OptionalSimpleMain.executor": "Run",
     "Application.OuterMain.executor": "Run",
+    "Application.PrimitiveStreamMain.executor": "Run",
     "Application.StreamStartMain.executor": "Run",
+    "Application.TerminalOperationsMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -108,13 +116,13 @@
       <recent name="lambda.lambda5.map" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LazyEvalMain3">
-    <configuration name="DuplicateExecutionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.DuplicateExecutionMain" />
+  <component name="RunManager" selected="Application.PrimitiveStreamMain">
+    <configuration name="IntermediateOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.operation.IntermediateOperationsMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
+          <option name="PATTERN" value="stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.ImmutableMain" />
+    <configuration name="MapVsFlatMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.operation.MapVsFlatMapMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
+          <option name="PATTERN" value="stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyEvalMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain1" />
+    <configuration name="OptionalSimpleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.operation.OptionalSimpleMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
+          <option name="PATTERN" value="stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyEvalMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain2" />
+    <configuration name="PrimitiveStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.operation.PrimitiveStreamMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
+          <option name="PATTERN" value="stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,39 +169,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyEvalMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.basic.LazyEvalMain3" />
+    <configuration name="TerminalOperationsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.operation.TerminalOperationsMain" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.basic.*" />
+          <option name="PATTERN" value="stream.operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="java-adv3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="java-adv3" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LazyEvalMain3" />
-        <item itemvalue="Application.LazyEvalMain2" />
-        <item itemvalue="Application.LazyEvalMain1" />
-        <item itemvalue="Application.DuplicateExecutionMain" />
-        <item itemvalue="Application.ImmutableMain" />
+        <item itemvalue="Application.PrimitiveStreamMain" />
+        <item itemvalue="Application.TerminalOperationsMain" />
+        <item itemvalue="Application.OptionalSimpleMain" />
+        <item itemvalue="Application.MapVsFlatMapMain" />
+        <item itemvalue="Application.IntermediateOperationsMain" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -204,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747286272317</updated>
       <workItem from="1747286273388" duration="616000" />
-      <workItem from="1747286963301" duration="17562000" />
+      <workItem from="1747286963301" duration="24960000" />
     </task>
     <task id="LOCAL-00001" summary=":white_check_mark: 김영한의 실전 자바 - 고급 3편, 람다, 스트림, 함수형 프로그래밍 : 4. 람다 활용">
       <option name="closed" value="true" />
