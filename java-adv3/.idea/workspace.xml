@@ -4,28 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3365f0a9-18b1-461e-a0b5-b887a02d5dbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/FilterMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/GenericFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/filter/IntegerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/GenericMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/MapMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/map/StringToIntegerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex1_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Ex2_Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/MyStreamV3Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda/lambda5/mystream/Student.java" afterDir="false" />
+    <list default="true" id="3365f0a9-18b1-461e-a0b5-b887a02d5dbb" name="Changes" comment="gitignore 추가">
+      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/MethodRefEx6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/start/MethodRefStartV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/start/MethodRefStartV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/methodref/start/MethodRefStartV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +41,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/yongjung95/inflearnSpring.git&quot;,
-    &quot;accountId&quot;: &quot;e431beb1-eef3-4e61-8c19-9acbabbbb00c&quot;
+    &quot;accountId&quot;: &quot;4cb58bad-bcab-4389-af4e-a23409c410d9&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -64,6 +53,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CaptureMain.executor": "Run",
     "Application.Ex0Main.executor": "Run",
     "Application.Ex1_Number.executor": "Run",
     "Application.Ex2_Student.executor": "Run",
@@ -74,14 +64,24 @@
     "Application.MapMainV2.executor": "Run",
     "Application.MapMainV4.executor": "Run",
     "Application.MapMainV5.executor": "Run",
+    "Application.MethodRefEx1.executor": "Run",
+    "Application.MethodRefEx2.executor": "Run",
+    "Application.MethodRefEx3.executor": "Run",
+    "Application.MethodRefEx4.executor": "Run",
+    "Application.MethodRefEx5.executor": "Run",
+    "Application.MethodRefEx6.executor": "Run",
+    "Application.MethodRefStartV1.executor": "Run",
+    "Application.MethodRefStartV2.executor": "Run",
+    "Application.MethodRefStartV3.executor": "Run",
     "Application.MyStreamV1Main.executor": "Run",
     "Application.MyStreamV2Main.executor": "Run",
     "Application.MyStreamV3Main.executor": "Run",
+    "Application.OuterMain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kthd/junge/IdeaProjects/inflearnSpring/java-adv3",
+    "last_opened_file_path": "/Users/junge/IdeaProjects/inflearnSpring/java-adv3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -90,25 +90,29 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="methodref" />
+      <recent name="methodref.start" />
       <recent name="lambda.lambda5.mystream" />
       <recent name="lambda.lambda5.map" />
       <recent name="lambda.lambda5.filter" />
-      <recent name="lambda.lambda5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyStreamLoopMain">
-    <configuration name="Ex2_Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.Ex2_Student" />
+  <component name="RunManager" selected="Application.MethodRefEx6">
+    <configuration name="MethodRefEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx2" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="PATTERN" value="methodref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStreamLoopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamLoopMain" />
+    <configuration name="MethodRefEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx3" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="PATTERN" value="methodref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStreamV1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamV1Main" />
+    <configuration name="MethodRefEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx4" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="PATTERN" value="methodref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStreamV2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamV2Main" />
+    <configuration name="MethodRefEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx5" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="PATTERN" value="methodref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,21 +159,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStreamV3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda.lambda5.mystream.MyStreamV3Main" />
+    <configuration name="MethodRefEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="methodref.MethodRefEx6" />
       <module name="java-adv3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.lambda5.mystream.*" />
+          <option name="PATTERN" value="methodref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="java-adv3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,21 +179,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyStreamLoopMain" />
-        <item itemvalue="Application.MyStreamV3Main" />
-        <item itemvalue="Application.MyStreamV2Main" />
-        <item itemvalue="Application.MyStreamV1Main" />
-        <item itemvalue="Application.Ex2_Student" />
+        <item itemvalue="Application.MethodRefEx6" />
+        <item itemvalue="Application.MethodRefEx5" />
+        <item itemvalue="Application.MethodRefEx4" />
+        <item itemvalue="Application.MethodRefEx3" />
+        <item itemvalue="Application.MethodRefEx2" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -225,6 +215,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="gitignore 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore 추가" />
   </component>
 </project>
