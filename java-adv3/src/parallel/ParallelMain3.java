@@ -10,7 +10,6 @@ public class ParallelMain3 {
         // 스레드 풀을 준비한다.
         ExecutorService es = Executors.newFixedThreadPool(2);
 
-
         long startTime = System.currentTimeMillis();
 
         // 1. Fork 작업을 분할한다.
@@ -28,6 +27,8 @@ public class ParallelMain3 {
         int sum = result1 + result2;
         long endTime = System.currentTimeMillis();
         log("time: " + (endTime - startTime) + "ms, sum: " + sum);
+
+        es.close();
     }
 
     static class SumTask implements Callable<Integer> {
